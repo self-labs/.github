@@ -106,7 +106,7 @@ different people, plus write access to somebody else's project.
   Windows hook cost from around 735 ms to around 175 ms per tool call. The other
   two stopped deleting third party hooks and stopped polluting someone else's
   log. All with tests.
-- [**FrankMD, Home Assistant and others**](https://github.com/pulls?q=is%3Apr+author%3ACaTeIM+is%3Amerged):
+- [**FrankMD, Home Assistant and others**](https://github.com/search?q=is%3Apr+author%3ACaTeIM+is%3Amerged&type=pullrequests):
   three more accepted in FrankMD and fixes in two third party Home Assistant
   components, always with the test case that reproduces the problem.
 
