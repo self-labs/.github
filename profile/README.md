@@ -7,14 +7,14 @@
 <p align="center"><strong>A one person lab, with uptime.</strong></p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/commits-1408-0b2a2f?style=flat-square&labelColor=0b2a2f&color=22d3ee" alt="commits">
-  <img src="https://img.shields.io/badge/repositories-29-0b2a2f?style=flat-square&labelColor=0b2a2f&color=22d3ee" alt="repositories">
-  <img src="https://img.shields.io/badge/upstream_PRs-13-0b2a2f?style=flat-square&labelColor=0b2a2f&color=34d399" alt="upstream PRs">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fselflabs.org%2Fstats.json&style=flat-square&labelColor=0b2a2f&query=%24.commits&label=commits&color=22d3ee" alt="commits">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fselflabs.org%2Fstats.json&style=flat-square&labelColor=0b2a2f&query=%24.repositorios&label=repositories&color=22d3ee" alt="repositories">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fselflabs.org%2Fstats.json&style=flat-square&labelColor=0b2a2f&query=%24.prsExternos&label=upstream%20PRs&color=34d399" alt="upstream pull requests">
   <img src="https://img.shields.io/badge/running_since-Jul_2025-0b2a2f?style=flat-square&labelColor=0b2a2f&color=34d399" alt="running since July 2025">
 </p>
 
 <p align="center">
-  <sub>Counted from the GitHub API on 2026-08-24, not estimated. The live figures update themselves every Monday at <a href="https://selflabs.org">selflabs.org</a>.</sub>
+  <sub>The three counters are read live from <a href="https://selflabs.org/stats.json">selflabs.org/stats.json</a>, which a scheduled job regenerates from the GitHub API every Monday. Nothing here is typed by hand.</sub>
 </p>
 
 ---
